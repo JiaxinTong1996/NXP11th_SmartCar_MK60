@@ -1,0 +1,31 @@
+摄像头camera Y0--Y7   :PTB0-7
+      camera SIO_C    :PTB20
+      camera SIO_C    :PTB23  
+      camera PCLK     :PTB10
+      camera VSYNC    :PTB17
+      camera HREF     :PTB21
+
+OLED 
+      LCD_DC          :PTD14
+      LCD_RST         :PTD15
+      LCD_D0          :PTB11
+      LCD_D1          :PTB16
+KEY
+
+      KEY4_PTE9~12    :PTE9~12
+
+编码器 PTA12_FTM1_CH1
+
+
+舵机  PTB18_FTM2_CHO
+
+电机  PTA5_FTM0_CH2
+      PTA6_FTM0_CH3
+
+后超声波PTD0_Trig_1
+        PTD1_Echo_1
+
+
+
+后超声波PTE24_Trig_2
+        PTE25_Echo_2

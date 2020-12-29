@@ -1,0 +1,102 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[DebugChecksum]
+Checksum=-1637730605
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=0
+[array_types]
+Fmt0=uint32[1]	3	0
+Fmt1=uint32[20]	3	0
+Fmt2=uint32[2]	3	0
+Fmt3=uint32[5]	3	0
+Fmt4=uint8[600]	3	0
+Fmt5=uint8[80]	3	0
+[watch_formats]
+Fmt0={W}42:GOAHEAD	3	0
+Fmt1={W}42:Moduty	3	0
+Fmt2={W}42:act_speed	3	0
+Fmt3={W}42:aim_speed	3	0
+Fmt4={W}42:centureErr	3	0
+Fmt5={W}42:cnvtime	3	0
+Fmt6={W}42:count	3	0
+Fmt7={W}42:leftEdgeflag	3	0
+Fmt8={W}42:leftPos	3	0
+Fmt9={W}42:left[1]	3	0
+Fmt10={W}42:motorErr	3	0
+Fmt11={W}42:motorErr1	3	0
+Fmt12={W}42:motor_ki	3	0
+Fmt13={W}42:motor_kp	3	0
+Fmt14={W}42:motor_last_pid	3	0
+Fmt15={W}42:motor_pid	3	0
+Fmt16={W}42:out	3	0
+Fmt17={W}42:ovtflag	3	0
+Fmt18={W}42:ovtleftMax	3	0
+Fmt19={W}42:ovtleftMin	3	0
+Fmt20={W}42:ovtrightMax	3	0
+Fmt21={W}42:ovtrightMin	3	0
+Fmt22={W}42:rightEdgeflag	3	0
+Fmt23={W}42:rightPos	3	0
+Fmt24={W}42:servPWMDuty	3	0
+Fmt25={W}42:servPWMErr	3	0
+Fmt26={W}42:speed_out_set	3	0
+Fmt27={W}42:speed_out_set_str	3	0
+Fmt28={W}42:tee	4	0
+Fmt29={W}42:vtr	3	0
+Fmt30={W}42:whiteNum	3	0
+Fmt31={W}42:whiteNum_last	3	0
+Fmt32={W}42:whitejudge	3	0
+Fmt33={W}42:whitejudge1	3	0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[Trace1]
+Enabled=0
+ShowSource=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son0430ÏÃ´óÅÜ\App\servo.c" ""
+A1=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son0520\App\main.c" ""
+A2=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son0604\App\main.c" ""
+A3=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Board\src\VCAN_OV7725_Eagle.c" ""
+A4=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Board\src\VCAN_camera.c" ""
+A5=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Chip\src\IAR\system_MK60DZ10.c" ""
+A6=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Chip\src\MK60_SysTick.c" ""
+A7=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Chip\src\MK60_lptmr.c" ""
+A8=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Chip\src\MK60_uart.c" ""
+A9=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Chip\src\misc.c" ""
+A10=_ "C:\Users\lenovo\Desktop\·É¿¨·É¿¨\my third son¿ª\my third son\Lib\CMSIS\Inc\core_cm4.h" ""
+Count=11
+SuppressDialog=1
